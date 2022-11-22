@@ -1,0 +1,77 @@
+main .about {
+	width: 100%;
+	padding: 2.5rem;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	/* box-shadow: rgba(100,100,111,0.2) 0 7px 29px 0; */
+}
+
+main .about .box--descr {
+	padding-left: 1.5rem;
+}
+
+main .about h3, main .about p {
+	color: #f14d5d;
+	font-size: 1.6rem;
+}
+
+main .about .box--items h3 {
+	color: #ffffff;
+     font-size: 2.25rem;
+}
+
+main .about .box__about .box--descr p{
+	margin-top: 1rem;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+main .about .box__about .box--descr .box--text p {
+	color: #8f8b8b;
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 1.8;
+}
+
+main .about .box__about .box--descr .box--items {
+	margin-top: 1.5rem;
+}
+
+main .about .box__about .box--items p {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+main .about .box__about .box--descr .box--items p {
+	font-size: 1.1rem;
+}
+
+main .about .box__about .box--descr .box--items .items,
+main .about .box__about .box--descr .box--items .items:nth-of-type(2),
+main .about .box__about .box--descr .box--items .items:nth-of-type(3),
+main .about .box__about .box--descr .box--items .items:nth-of-type(4) {
+	padding: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #28a745;
+	border: 1px solid rgba(27,31,35,0.15);
+	box-shadow: rgba(27,31,35,0.1) 0 1px 0;
+	font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	font-weight: 600;
+}
+
+main .about .box__about .box--descr .box--items .items:nth-of-type(2) {
+	background-color: #2878eb;
+}
+
+main .about .box__about .box--descr .box--items .items:nth-of-type(3) {
+	background-color: #f14d5d;
+}
+
+main .about .box__about .box--descr .box--items .items:nth-of-type(4) {
+	background-color: #ffc107;
+}

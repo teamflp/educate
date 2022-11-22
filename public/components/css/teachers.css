@@ -1,0 +1,150 @@
+main .box__teachers {
+	padding: 5rem 0;
+	overflow: inherit;
+}
+
+main .box__teachers .box__teachers--header {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+main .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .about .box__about .box--descr .box--items p,main .about .box__about .box--descr .box--items .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 h3,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 h3,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 h3,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__teachers .box__teachers--header h3,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 h3,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__teachers .box__teachers--header h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #f14d5d;
+	margin-bottom: 1rem;
+}
+
+main .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__teachers .box__teachers--header p,main .box__teachers .box__teachers--header .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__teachers .box__teachers--header p {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+main .box__teachers .box__teachers--content {
+	position: relative;
+}
+
+main .box__teachers .box__teachers--content .box__teachers--item {
+	background-color: #ecf4ff;
+}
+
+main .box__teachers .box__teachers--content .box__teachers--item .teachers--item .box__teacher--footer {
+	text-align: center;
+	padding: 1rem 0;
+	background-color: #ecf4ff;
+}
+
+main .box__teachers .box__teachers--content .box__teachers--item .teachers--item .box__teacher--footer h3,main .box__teachers .box__teachers--content .box__teachers--item .teachers--item .box__teacher--footer .about .box__about .box--descr .box--items p,main .about .box__about .box--descr .box--items .box__teachers .box__teachers--content .box__teachers--item .teachers--item .box__teacher--footer p {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+main .box__teachers .box__teachers--content .box__teachers--item .teachers--item .box__teacher--footer p {
+	font-size: .8rem;
+	font-weight: 600;
+	color: #8f8b8b;
+	margin-bottom: 1rem;
+}
+
+main .box__teachers .box__teachers--content .box__teachers--item .teachers--item .box__teacher--footer .icons {
+	gap: .5rem;
+	font-size: 1rem;
+	justify-content: center;
+}
+
+main .box__teachers .box__teachers--content .box__teachers--item .teachers--item .box__teacher--footer .icons .link-icon {
+	opacity: 0%;
+	color: #fff;
+	font-size: 1rem;
+	padding: .1rem .5rem;
+	border-radius: 45%;
+	border: 2px solid #fff;
+	background-color: #2878eb;
+	text-decoration: none;
+	transition: all 3s ease-in-out 0s forwards;
+	box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+}
+
+main .box__teachers .box__teachers--content .box__teachers--item .teachers--item .box__teacher--footer .icons .link-icon:hover {
+	color: #f14d5d;
+}
+
+main .box__teachers .box__teachers--content .prev,main .box__teachers .box__teachers--content .next {
+	position: absolute;
+	top: 50%;
+	opacity: 0;
+	left: -2.5%;
+	padding: 0 1rem;
+	transform: translateY(-50% -50%);
+	font-size: 2rem;
+	color: #2878eb;
+	cursor: pointer;
+	background-color: #2878eb;
+	z-index: 1;
+	box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+}
+
+main .box__teachers .box__teachers--content .prev i,main .box__teachers .box__teachers--content .next i {
+	color: #fff;
+}
+
+main .box__teachers .box__teachers--content .next {
+	left: 97.5%;
+}
+
+main .box__teachers .box__teachers--content:hover .prev,main .box__teachers .box__teachers--content:hover .next {
+	opacity: 1;
+	animation: FadeInRight 1s ease-in-out 0s 1 normal both running;
+	-webkit-animation: FadeInRight 1s ease-in-out 0s 1 normal both running;
+}
+
+@keyframes FadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+main .box__teachers .box__teachers--content:hover .next {
+	opacity: 1;
+	animation: FadeInLeft 1s ease-in-out 0s 1 normal both running;
+	-webkit-animation: FadeInLeft 1s ease-in-out 0s 1 normal both running;
+}
+
+@keyframes FadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+main .box__teachers .box__teacher--footer:hover .link-icon {
+	opacity: 90%;
+	animation: RollIn .6s ease-in-out 0s 1 normal both running;
+	-webkit-animation: RollIn .6s ease-in-out 0s 1 normal both running;
+	-moz-animation: RollIn .6s ease-in-out 0s 1 normal both running;
+	transition: all 0.5s ease-in-out 0s;
+	box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+}
+
+@keyframes RollIn {
+	0% {
+		transform: translateX(-100%) rotate(-120deg);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateX(0) rotate(0);
+		opacity: 1;
+	}
+}

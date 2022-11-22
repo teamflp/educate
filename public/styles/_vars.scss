@@ -1,0 +1,75 @@
+$red: #f14d5d;
+$gray: #8f8b8b;
+$blue: #2878eb;
+$black: #000000;
+$white: #ffffff;
+$green: #28a745;
+$yellow: #ffc107;
+$bluesky: #ecf4ff;
+$darkblue: #120f2d;
+$darkgray: #2d2d2d;
+$lightgray: #f2f2f2;
+// Path: public\styles\_mixins.scss
+
+$border-r: 1px solid $red;
+$border-w: 1px solid $white;
+$border-bl: 1px solid $blue;
+$border-bk: 1px solid $black;
+
+// mixins borders
+@mixin border-r {
+    border: $border-r;
+}
+
+@mixin border-w {
+    border: $border-w;
+}
+
+@mixin border-b {
+    border: $border-bk;
+}
+
+@mixin border-bl {
+    border: $border-bl;
+}
+
+/* FUNCTION REM */
+@function rem($size) {
+     @return calc($size / 16px * 1rem);
+}
+
+/* FUNCTION EM */
+@function em($size) {
+     @return calc($size / 16px * 1em);
+}
+
+/* FUNCTION PX */
+@function px($size) {
+     @return calc($size / 16px * 1px);
+}
+
+/* FUNCTION PERCENT */
+@function percent($size) {
+     @return calc($size / 16px * 100%);
+}
+
+// vh
+@function vh($size) {
+     @return calc($size / 16px * 1vh);
+}
+
+// vw
+@function vw($size) {
+     @return calc($size / 16px * 1vw);
+}
+
+// vmin
+@function vmin($size) {
+     @return calc($size / 16px * 1vmin);
+}
+
+// vmax
+
+@function vmax($size) {
+     @return calc($size / 16px * 1vmax);
+}

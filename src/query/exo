@@ -1,0 +1,73 @@
+-- CREATE DATABASE blog;
+use blog;
+
+CREATE TABLE articles (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
+
+-- On insert les doneés dans la table articles
+INSERT INTO articles (id, title, content, created_at, updated_at) VALUES ('prmier titre', 'premier contenu', '2022-10-13 13:18:10', '2022-10-13 13:18:10');
+
+ CREATE TABLE authors (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+-- On insert les doneés dans la table authors
+INSERT INTO authors (id, name) VALUES ('1', 'Jean');
+
+CREATE TABLE articles_authors (
+    id INT NOT NULL AUTO_INCREMENT,
+    article_id INT NOT NULL,
+    author_id INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (article_id) REFERENCES articles(id),
+    FOREIGN KEY (author_id) REFERENCES authors(id)
+);
+-- On insert les doneés dans la table articles_authors
+INSERT INTO articles_authors (id, article_id, author_id) VALUES ('1', '1', '1');
+
+-- 3. Créer une table "comments" avec les champs suivants : 
+    CREATE TABLE comments (
+        id INT NOT NULL AUTO_INCREMENT,
+        content TEXT NOT NULL,
+        article_id INT NOT NULL,
+        PRIMARY KEY (id),
+        FOREIGN KEY (article_id) REFERENCES articles(id) ON DELETE CASCADE -- ON DELETE CASCADE : supprime les commentaires liés à l'article supprimé
+    );
+
+INSERT INTO comments (id, content, article_id) VALUES ('1', 'premier commentaire', '1');
+
+-- 4. Créer une table "users" avec les champs suivants :
+    CREATE TABLE `users` (
+        id INT NOT NULL AUTO_INCREMENT,
+        name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL,
+        PRIMARY KEY (id)
+    );
+
+-- 5. Créer une table "users_articles" avec les champs suivants :
+    CREATE TABLE `users_articles` (
+        id INT NOT NULL AUTO_INCREMENT,
+        user_id INT NOT NULL,
+        article_id INT NOT NULL,
+        PRIMARY KEY (id),
+        FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE, -- 
+        FOREIGN KEY (article_id) REFERENCES articles(id) ON DELETE CASCADE
+    );
+
+-- 6. Créer une table "users_comments" avec les champs suivants :
+    CREATE TABLE users_comments (
+        id INT NOT NULL AUTO_INCREMENT,
+        user_id INT NOT NULL,
+        comment_id INT NOT NULL,
+        PRIMARY KEY (id),
+        FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+        FOREIGN KEY (comment_id) REFERENCES comments(id) ON DELETE CASCADE
+    );

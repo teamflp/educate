@@ -1,0 +1,151 @@
+.box__contact--us {
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+	background: url("../../images/bg-image.jpg") center;
+}
+
+.box__contact--us .contact--text, .box__contact--us .contact__form--contact {
+	margin-top: 1rem;
+	padding: 2rem 0;
+}
+
+.box__contact--us h3 {
+	color: #f14d5d;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.box__contact--us p {
+	margin-top: rem(18.8px);
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+.box__contact--us .contact--text .contact--t1 p {
+	color: #8f8b8b;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.8;
+}
+
+.box__contact--us .contact--text .contact--items-1, .box__contact--us .contact__form--contact .contact--items-1, .box__contact--us .contact--text .contact--items-2, .box__contact--us .contact__form--contact .contact--items-2, .box__contact--us .contact--text .contact--items-3, .box__contact--us .contact__form--contact .contact--items-3, .box__contact--us .contact--text .contact--items-4, .box__contact--us .contact__form--contact .contact--items-4 {
+	padding: 0;
+	justify-content: start;
+	align-items: flex-start;
+	margin-top: 1rem;
+}
+
+.box__contact--us .contact__items--icon-1, 
+.box__contact--us .contact__items--icon-2, 
+.box__contact--us .contact__items--icon-3, 
+.box__contact--us .contact__items--icon-4
+
+{	color: #ffffff;
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 0.9rem 2rem;
+	margin-bottom: 2rem;
+	background-color: #2878eb;
+}
+
+.box__contact--us .contact__items--text-1, 
+.box__contact--us .contact__items--text-2, 
+.box__contact--us .contact__items--text-3, 
+.box__contact--us .contact__items--text-4 {	
+	padding: 0 1rem;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.box__contact--us .contact__items--text-1 h3, p
+.box__contact--us .contact__items--text-2 h3, p
+.box__contact--us .contact__items--text-3 h3, p
+.box__contact--us .contact__items--text-4 h3, p {
+	color: #8f8b8b;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.box__contact--us .contact--text .contact--items-2 .contact__items--icon-2, .box__contact--us .contact__form--contact .contact--items-2 .contact__items--icon-2, .box__contact--us .contact--text .contact--items-3 .contact__items--icon-2, .box__contact--us .contact__form--contact .contact--items-3 .contact__items--icon-2, .box__contact--us .contact--text .contact--items-4 .contact__items--icon-2, .box__contact--us .contact__form--contact .contact--items-4 .contact__items--icon-2, .box__contact--us .contact--text .contact--items-3 .contact__items--icon-3, .box__contact--us .contact__form--contact .contact--items-3 .contact__items--icon-3, .box__contact--us .contact--text .contact--items-4 .contact__items--icon-3, .box__contact--us .contact__form--contact .contact--items-4 .contact__items--icon-3 {
+	padding: 0.9rem 1.8rem;
+	background-color: #f14d5d;
+}
+
+.box__contact--us .contact--text .contact--items-3 .contact__items--icon-3, .box__contact--us .contact__form--contact .contact--items-3 .contact__items--icon-3, .box__contact--us .contact--text .contact--items-4 .contact__items--icon-3, .box__contact--us .contact__form--contact .contact--items-4 .contact__items--icon-3 {
+	padding: 0.9rem 1.8rem;
+	background-color: #28a745;
+}
+
+.box__contact--us .contact--text .contact--items-4 p, .box__contact--us .contact__form--contact .contact--items-4 p, .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .contact--items-4 p, .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .contact--items-4 p, .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .contact--items-4 p, .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .contact--items-4 p, .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 p, .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p, .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .contact--items-4 p, .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .contact--items-4 p, .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 p, .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p {
+	color: #8f8b8b;
+	font-size: 1rem;
+}
+
+.box__contact--us .contact__form--contact {
+	padding-left: 2rem;
+	border-left: 2px dotted #f2f2f2;
+	background-color: #ffffff !important;
+    /* background-image: url('../../images/bg-image.jpg'); */
+	background-position: top left;
+}
+
+.box__contact--us .contact__form--contact p.texte::after, .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .contact__form--contact p.texte::after, .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 p.texte::after, .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .contact__form--contact p.texte::after, .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 p.texte::after, .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .contact__form--contact p.texte::after, .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p.texte::after, .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .contact__form--contact p.texte::after, .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 p.texte::after, .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .contact__form--contact p.texte::after, .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p.texte::after {
+	content: ' \f1d8';
+	font-weight: 900;
+	font-family: 'Font Awesome 5 Free';
+	font-size: 1.2rem;
+	color: #8f8b8b;
+	opacity: 50%;
+}
+
+.box__contact--us .contact__form--contact .box__form {
+	padding: 1rem 0;
+}
+
+.box__contact--us .contact__form--contact .box__form .form--group .box--input {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.box__contact--us .contact__form--contact .box__form .form--group input, .box__contact--us .contact__form--contact .box__form .form--group textarea, .box__contact--us .contact__form--contact .box__form .form--group select {
+	width: 100%;
+	padding: 1rem 1rem;
+	margin-top: 1rem;
+	border: 1px solid #f2f2f2;
+	font-size: 1rem;
+	color: #000000;
+	background-color: #f2f2f2;
+}
+
+.box__contact--us .contact__form--contact .box__form .form--group input:focus, .box__contact--us .contact__form--contact .box__form .form--group textarea:focus, .box__contact--us .contact__form--contact .box__form .form--group select:focus {
+	outline: #2878eb 1px solid !important;
+	box-shadow: 0 0 10px #2878eb;
+}
+
+.box__contact--us .contact__form--contact .box__form .form--group textarea {
+	width: 100%;
+	height: 10rem;
+}
+
+.box__contact--us .contact__form--contact .box__form .form--group button.btn {
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 600;
+	margin-top: .5rem;
+	padding: 1rem 1rem;
+	background-color: #2878eb;
+	text-transform: uppercase;
+	border: 1px solid #f2f2f2;
+}
+
+.box__contact--us .contact__form--contact .box__form .form--group button.btn:hover {
+	outline: none;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}

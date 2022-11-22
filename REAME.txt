@@ -1,0 +1,351 @@
+Software: ProSigned
+
+Version: 1.0.0
+Année: 2022
+Plateforme: Windows, Mac, Linux, Android, iOS
+Langue: Multilingue
+Technologie utilisées: MVC, PHP, MySQL, HTML, CSS, JavaScript, jQuery, Bootstrap, Ajax, JSON, API, Web Services, SOAP, REST
+
+Site web: <https://www.prosigned.com/>
+
+DESCRIPTION:
+ProSigned est un logiciel de signature électronique qui vous permet de signer des documents PDF, Word, Excel, PowerPoint, etc. en quelques clics.
+Il vous permet également de signer des documents en ligne, de créer des formulaires de signature électronique et de gérer vos documents signés.
+
+FONCTIONNALITÉS DE L'APPLICATION:
+
+1) Créer des formulaires de signature électronique
+2) Signer des documents en ligne
+3) Gérer les documents signés
+4) Gestion des étudiants: ajouter, modifier, supprimer, rechercher, exporter, imprimer
+5) Gestion des professeurs: ajouter, modifier, supprimer, rechercher, exporter, imprimer
+6) Gestion des classes: ajouter, modifier, supprimer, rechercher, exporter, imprimer
+7) Gestion des matières: ajouter, modifier, supprimer, rechercher, exporter, imprimer
+8) Gestion des notes: ajouter, modifier, supprimer, rechercher, exporter, imprimer
+9) Rappel aux profs par email le debut de cours pour faire la liste des présents et des absents sur l'application
+10) Gestion des absences: ajouter, modifier, supprimer, rechercher, exporter, imprimer
+11) Gestion des paiements: ajouter, modifier, supprimer, rechercher, exporter, imprimer
+12) Envoi d'e-mails aux étudiants pour les signatures électroniques et ensuite les renvoient après la signature.
+13) Envoi d'e-mails aux professeurs pour les signatures électroniques et ensuite les renvoient après la signature.
+
+INSTALLATION  DE NODE_MODULES
+
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) npm init -y npm install express --save
+4) Taper la commande: npm composefa-rotate-180
+
+INSTALLATION DE LA BASE DE DONNÉES
+
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: mysql -u root -p
+4) Taper le mot de passe de la base de données
+5) Taper la commande: source database.sql
+
+ON LANCE LE SERVEUR INTERNE PHP
+
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: php -S localhost:8000 -t public
+
+ON INSTALLE LE SERVEUR WEB
+
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm install -g http-server
+4) Taper la commande: http-server -p 8080
+
+ON RAFRAICHIT LA PAGE WEB POUR VOIR LES MODIFICATIONS
+
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm install -g browser-sync
+4) Taper la commande: browser-sync start --server --files "*"
+5) Ouvrir le navigateur et taper l'adresse: <http://localhost:3000/>
+
+ON INSTALLE LE FICHIER autoload.php
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer install
+
+// ON CRÉE UNE ROUTE POUR LA PAGE D'ACCUEIL
+$app->get('/', function () use ($app) {
+    return $app['twig']->render('index.html.twig');
+});
+
+// ON INSTALLE TWIG SUR LE PROJET
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require twig/twig
+
+// INSTALLATION ET CONFIGURATION DE WEBPACK 
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm init -y
+4) Taper la commande: npm install sass-loader sass webpack --save-dev
+5) Taper la commande: npm install --save-dev webpack webpack-cli 
+
+// CONFIGURATION DE WEBPACK
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm install --save-dev style-loader css-loader
+4) Taper la commande: npm install --save-dev sass-loader node-sass
+7) Taper la commande: npm install --save-dev jquery
+9) Taper la commande: npm install --save-dev bootstrap
+10) Taper la commande: npm install --save-dev @fortawesome/fontawesome-free
+
+// ON FAIT LA SYNCHRONISATION ENTRE ONEDRIVE ET GOOGLE DRIVE
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm install --save-dev onedrive-api
+4) Taper la commande: npm install --save-dev googleapis
+
+// ON FAIT LA SAUVEGARDE DU DOSSIER DANS GOOGLE DRIVE
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm install --save-dev googleapis
+
+// ON FAIT LA SAUVEGARDE DU DOSSIER DANS ONEDRIVE
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm install --save-dev onedrive-api
+
+// ON FAIT LA SAUVEGARDE DU DOSSIER DANS DROPBOX
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm install --save-dev dropbox
+
+// ON FAIT LA SAUVEGARDE DU DOSSIER DANS BOX
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: npm install --save-dev box-node-sdk
+
+// ON INSTALLE LE MODULE DE GESTION DES FICHIERS
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require league/flysystem
+4) Taper la commande: composer require league/flysystem-aws-s3-v3
+5) Taper la commande: composer require league/flysystem-azure-blob-storage
+6) Taper la commande: composer require league/flysystem-aws-s3-v3
+7) Taper la commande: composer require league/flysystem-cached-adapter
+8) Taper la commande: composer require league/flysystem-memory
+9) Taper la commande: composer require league/flysystem-rackspace
+10) Taper la commande: composer require league/flysystem-sftp
+11) Taper la commande: composer require league/flysystem-webdav
+12) Taper la commande: composer require league/flysystem-ziparchive
+
+// ON INSTALLE LE MODULE DE GESTION DES FICHIERS
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require league/flysystem
+4) Taper la commande: composer require league/flysystem-aws-s3-v3
+5) Taper la commande: composer require league/flysystem-azure-blob-storage
+6) Taper la commande: composer require league/flysystem-aws-s3-v3
+7) Taper la commande: composer require league/flysystem-cached-adapter
+8) Taper la commande: composer require league/flysystem-memory
+9) Taper la commande: composer require league/flysystem-rackspace
+10) Taper la commande: composer require league/flysystem-sftp
+11) Taper la commande: composer require league/flysystem-webdav
+12) Taper la commande: composer require league/flysystem-ziparchive
+
+// ON INSTALLE LE MODULE DE GESTION DES FICHIERS
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require league/flysystem
+4) Taper la commande
+
+=======
+
+4) Taper la commande: npm install --save-dev googleapis
+5) Taper la commande: npm install --save-dev googleapis@39 --force
+
+// ON INSTALLE LE MODULE POUR LA GESTION DES FICHIERS
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require league/flysystem-aws-s3-v3
+4) Taper la commande: composer require league/flysystem-azure-blob-storage
+5) Taper la commande: composer require league/flysystem-aws-s3-v3
+6) Taper la commande: composer require league/flysystem-ftp
+7) Taper la commande: composer require league/flysystem-sftp
+8) Taper la commande: composer require league/flysystem-webdav
+9) Taper la commande: composer require league/flysystem-ziparchive
+
+// ON INSTALLE LE MODULE POUR LA GESTION DES IMAGES
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require intervention/image
+4) Taper la commande: composer require intervention/imagecache
+
+// ON INSTALLE LE MODULE POUR LA GESTION DES MESSAGES
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require phpmailer/phpmailer
+
+// ON INSTALLE LE MODULE POUR LA GESTION DES DOCUMENTS PDF
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require dompdf/dompdf
+
+// ON INSTALLE LE MODULE POUR LA GESTION DES DOCUMENTS WORD
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require phpoffice/phpword
+
+// ON INSTALLE LE MODULE POUR LA GESTION DES DOCUMENTS EXCEL
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require phpoffice/phpspreadsheet
+
+// ON INSTALLE LE MODULE POUR LA GESTION DES DOCUMENTS POWERPOINT
+1) Ouvrir le terminal
+2) Se placer dans le dossier du projet
+3) Taper la commande: composer require phpoffice/phppower
+
+// ON INSTALLE NVM (NODE VERSION MANAGER) AVANT D'INSTALLER NODEJS 
+1) Ouvrir le terminal
+2) sudo apt install curl 
+3) Taper la commande: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+4) source ~/.bashrc  
+5) nvm install node
+6) nvm ls (pour lister les versions de nodejs)
+7) nvm ls-remote (pour lister les versions de nodejs disponibles)
+8) Taper la commande: nvm install 12.16.1 (pour installer la version 12.16.1 de nodejs)
+9) Taper la commande: nvm use 12.16.1 (pour utiliser la version 12.16.1 de nodejs)
+10) nvm run default --version (pour vérifier la version de nodejs)
+11) nvm exec 12.18.3 server.js (pour exécuter le fichier server.js avec la version 12.18.3 de nodejs)
+
+// ON INSTALLE LE REACTJS
+1) Ouvrir le terminal
+2) Taper la commande: npm install -g create-react-app
+3) Taper la commande: create-react-app my-app
+4) Taper la commande: cd my-app
+5) Taper la commande: npm start
+
+// ON CEEE UN COMPOSANT REACTJS
+1) Ouvrir le terminal
+2) Taper la commande: npx create-react-app my-app
+3) Taper la commande: cd my-app
+
+// ON INSTALLE RACT JS SUR UBUNTU
+1) Ouvrir le terminal
+2) Taper la commande: sudo apt-get install nodejs
+3) Taper la commande: sudo apt-get install npm
+4) Taper la commande: sudo npm install -g create-react-app
+5) Taper la commande: create-react-app my-app
+6) Taper la commande: cd my-app
+7) Taper la commande: npm start
+
+// MISE A JOUR DE NODEJS
+1) Ouvrir le terminal
+2) Taper la commande: sudo npm cache clean -f
+3) Taper la commande: sudo npm install -g n
+4) Taper la commande: sudo n stable
+5) Taper la commande: node -v
+
+// INSTALLATION ET CONFIGURATION DE LA VERSION 5 DU FRAMEWORK SYMFONY SOUS UBUNTU
+1) Ouvrir le terminal
+2) sudo apt update
+3) sudo apt install composer
+4) Taper la commande: sudo apt install php-cli php-mbstring php-xml php-zip php-curl php-mysql php-sqlite3 php-pgsql php-gd php-intl php-bcmath php-soap php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php-memcached php-igbinary php-msgpack php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php-memcached php-igbinary php-msgpack php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php-memcached php-igbinary php-msgpack php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php-memcached php-igbinary php-msgpack php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php
+5) sudo apt install git zip unzip 
+6) wget https://get.symfony.com/cli/installer -O - | bash
+7) Installation de symfony en 3 étapes:
+    1) sudo mv /home/paterne/.symfony5/bin/symfony /usr/local/bin/symfony (Installation globale dans le systèmes)
+    2) sudo /home/paterne/.symfony5/bin/symfony (Installation locale)
+    3) export PATH="$HOME/.symfony5/bin:$PATH" (Installation locale avec le PATH)
+8) symfony check:requirements
+On passe à l'étape 11 - 14 et c'est tout.
+Pour l'utilisation de sass:
+    - npm install sass-loader@^13.0.0 sass --save-dev
+    - npm run dev --watch (pour compiler le sass en css)
+    - npm run watch (on compile sass en arrière plan) 
+
+
+7) sudo nano ~/.bashrc (pour ajouter le chemin d'accès au fichier symfony) 
+8) On ajoute la ligne suivante: export PATH="$HOME/.symfony/bin:$PATH". à la fin du fichier ~/.bashrc ouvert avec nano
+9) source ~/.bashrc (pour recharger le fichier ~/.bashrc)
+10) Taper la commande: symfony check:requirements (pour vérifier les prérequis)
+11) Taper la commande: symfony new --full my_project_name (pour créer un nouveau projet symfony)
+12) Taper la commande: cd my_project_name
+13) Taper la commande: symfony server:ca:install (pour installer le certificat SSL)
+14) Taper la commande: symfony serve -d (pour démarrer le serveur symfony en arrière plan)
+15) Taper la commande: symfony open:local (Optionel: pour ouvrir le projet dans le navigateur par défaut)
+15) Taper la commande: symfony console make:controller (pour créer un nouveau contrôleur)
+16) Taper la commande: symfony console make:entity (pour créer une nouvelle entité)
+17) Taper la commande: symfony console make:migration (pour créer une nouvelle migration)
+18) Taper la commande: symfony console doctrine:migrations:migrate (pour exécuter la migration)
+19) Taper la commande: symfony console doctrine:fixtures:load (pour charger les données de test)
+20) Taper la commande: symfony console make:auth (pour créer un système d'authentification)
+21) Taper la commande: symfony console make:crud (pour créer un CRUD)
+22) Taper la commande: symfony console make:registration-form (pour créer un formulaire d'inscription)
+23) Taper la commande: symfony console make:reset-password (pour créer un formulaire de réinitialisation du mot de passe)
+
+// INSTALLATION DU FRAMEWORK SYMFONY SOUS UBUNTU
+1) Ouvrir le terminal
+2) Taper la commande: sudo apt install php-cli php-mbstring php-xml php-zip php-curl php-mysql php-sqlite3 php-pgsql php-gd php-intl php-bcmath php-soap php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php-memcached php-igbinary php-msgpack php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php-memcached php-igbinary php-msgpack php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php-memcached php-igbinary php-msgpack php-ldap php-imagick php-dev php-xmlrpc php-xsl php-tidy php-fpm php-opcache php-json php-readline php-redis php
+3) Taper la commande: sudo apt install composer
+
+// ON FAIT LE BUILD DE SASS EN LIGNE DE COMMANDE DANS SYMFONY
+1) Ouvrir le terminal
+2) Taper la commande: sudo apt install ruby-full
+3) Taper la commande: sudo gem install sass
+4) Taper la commande: sudo gem install compass
+5) Taper la commande: sudo gem install bootstrap-sass
+6) Taper la commande: sudo gem install bootstrap
+7) Taper la commande: sudo gem install compass
+8) npm run build encore dev --watch (pour compiler le fichier scss en css)
+
+// ON INSTALL FONTAWESOME DANS SYMFONY
+1) Ouvrir le terminal
+2) Taper la commande: npm install --save @fortawesome/fontawesome-free
+3) Taper la commande: npm install --save @fortawesome/fontawesome-svg-core
+4) Taper la commande: npm install --save @fortawesome/free-solid-svg-icons
+5) Taper la commande: npm install --save @fortawesome/free-regular-svg-icons
+6) Taper la commande: npm install --save @fortawesome/free-brands-svg-icons
+7) Taper la commande: npm install --save @fortawesome/vue-fontawesome
+
+// ON IMPORTE LES FICHIERS CSS ET JS DE FONTAWESOME DANS SYMFONY
+1) Ouvrir le fichier webpack.config.js
+2) Ajouter les lignes suivantes:
+    Encore
+        .addEntry('fontawesome', './assets/js/fontawesome.js')
+        .addStyleEntry('css/fontawesome', './assets/css/fontawesome.min.css')
+        .addStyleEntry('css/fontawesome', './assets/css/fontawesome.min.js')
+        
+// ON DESINSTALE COMPLETEMENT SASS D'UBUNTU
+1) Ouvrir le terminal
+2) Taper la commande: sudo apt-get remove ruby-sass
+3) Taper la commande: sudo apt-get remove ruby-compass
+4) Taper la commande: sudo apt-get remove ruby-compass-core
+5) Taper la commande: sudo apt-get remove ruby-compass-import-once
+
+// ON INSTALLE COMPLETEMENT SASS
+1) Ouvrir le terminal
+2) Taper la commande: sudo apt-get install ruby-sass
+3) Taper la commande: sudo apt-get install ruby-compass
+
+// ON COMPILE SASS APRES INSTALLATION
+1) Ouvrir le terminal
+2) Taper la commande: sass --watch assets/css/app.scss:public/css/app.css
+
+// ON INSTALLE LE DOSSIER VENDOR 
+1) Ouvrir le terminal
+2) Taper la commande: composer install
+
+// INSTALLATION DE TAILWINDCSS 
+1) Ouvrir le terminal
+2) Taper la commande: npm i -D tailwindcss (pour installer tailwindcss)
+3) Taper la commande: tailwindcss init (pour initialiser tailwindcss)
+3) Taper la commande: tailwindcss --watch assets/css/app.css -o public/css/app.css (pour compiler le fichier css en ligne de commande)
+3) Taper la commande: npm i -D postcss postcss-cli autoprefixer // pour compiler le fichier tailwind.css en css
+
+// ON EXPORT LE FICHIER create-components.sh dans les variables d'environnement et on crée un alias
+1) Ouvrir le terminal
+2) Taper la commande: export PATH=$PATH:$HOME/bin/create-components.sh
+
+// On crée un alias pour le fichier create-components.sh tel que new component ou new c pour créer un nouveau composant
+1) Ouvrir le terminal
+2) Taper la commande: alias new-component="create-components.sh"
+
+

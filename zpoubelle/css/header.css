@@ -1,0 +1,65 @@
+
+header {
+	background-color: #fff;
+}
+
+header .navtop {
+	padding: 0.5rem 2rem;
+	background-color: #120f2d;
+}
+
+header .navtop .contacts {
+	width: 100%;
+}
+
+header .navtop .contacts .left,header .navtop .contacts .right {
+	text-align: center;
+	align-items: center;
+	padding: 0 0.3rem;
+}
+
+header .navtop .contacts .left a,header .navtop .contacts .right a {
+	color: #fff;
+	font-size: 1.1rem;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+header .navtop .contacts .right {
+	padding-left: 0.3rem;
+}
+
+header .navtop .icons-socials {
+	padding: 0;
+}
+
+header .navtop .icons-socials a {
+	color: #fff;
+	font-size: 1.1rem;
+	margin-left: 1rem;
+	text-decoration: underline;
+}
+
+header nav {
+	padding: 0 2rem;
+	background-color: #fff;
+}
+
+header nav .navbar a {
+	color: #120f2d;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.2rem;
+	padding: 0.7rem 2rem;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+
+header nav .navbar a:hover {
+	background-color: #f2f2f2;
+}
+
+header nav .navbar a:last-child {
+	color: #120f2d;
+	background-color: #f2f2f2;
+}

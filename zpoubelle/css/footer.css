@@ -1,0 +1,201 @@
+main .footer {
+	padding-bottom: 3rem;
+	color: #fff!important;
+	background-color: #120f2d;
+}
+
+main .footer .overlay-bottom {
+	height: 50px;
+	background: url("../../images/overlay-top.png") top;
+}
+
+main .footer h3{
+	color: #2878eb;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+
+main .footer .footer__box--1 {
+	margin-top: 4rem;
+}
+
+main .footer .footer__box--1 .footer__box__1--left {
+	padding: 1rem 6rem 1rem 0;
+	margin-bottom: .5rem;
+}
+
+main .footer .footer__box__1--left p {
+	font-size: .95rem;
+	padding: 1rem 1rem 1rem 0;
+}
+
+main .footer .footer__box--1 .footer__box__1--right {
+	padding: 1rem 0 1rem 6rem;
+}
+
+main .footer .form-control {
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 1.5rem;
+	font-size: 1reM;
+}
+
+main .footer .f-btn {
+	color: #fff;
+	border: none;
+	outline: none;
+	padding: 1.5rem;
+	font-size: 1rem;
+	cursor: pointer;
+	background-color: #2878eb;
+}
+
+main .footer .footer__box--2 ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+main .footer .footer__box--2 ul li {
+	width: 100%;
+	flex-direction: column;
+}
+
+main .footer .footer__box--2 ul li a {
+	width: 100%;
+	color: #fff;
+	font-size: 1rem;
+	padding: 1.5rem 0;
+	text-decoration: none;
+	line-height: 1.9;
+}
+
+main .footer .footer__box--2 ul li a:hover {
+	color: #f2f2f2;
+}
+
+main .footer .footer__box--2 ul li a i {
+	font-size: 1rem;
+	font-weight: 900;
+}
+
+main .footer .footer__box--2 .socials .fa-facebook,
+main .footer .footer__box--2 .socials .fa-twitter,
+main .footer .footer__box--2 .socials .fa-youtube,
+main .footer .footer__box--2 .socials .fa-instagram {
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+
+main .footer .footer--copyright {
+	padding: 1.5rem 0;
+	margin-top: 3rem;
+	border-top: 1px solid #eeeeee;
+}
+
+main .footer .copy p {
+	text-align: start;
+	color: #ecf4ff;
+}
+
+main .footer .footer--copyright .copy p a.copy--link {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+main .footer .footer--copyright .credits p {
+	text-align: end;
+	color: #ecf4ff;
+}
+
+@media screen and (max-width:320px) {
+	.container,.container-fluid,.d-flex,main {
+		max-width: 100%;
+	}
+
+	header .navtop {
+		padding: 0.3rem 0;
+	}
+
+	header .navtop .contacts {
+		width: 100%;
+	}
+
+	header .navtop .contacts .left {
+		width: 100%;
+	}
+
+	header .navtop .contacts .right {
+		width: 100%;
+		padding-left: 0;
+		border-left: none;
+	}
+
+	header .navtop .icons-socials a {
+		color: #fff;
+		font-size: 1.1rem;
+		margin-left: 1rem;
+		text-decoration: none;
+	}
+
+	header nav {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	header nav .navbar {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	header nav .navbar a {
+		color: #120f2d;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 1.2rem;
+		padding: 0.7rem 2rem;
+		text-transform: uppercase;
+		transition: all 0.3s ease-in-out;
+	}
+
+	header nav .navbar a:hover {
+		background-color: #f2f2f2;
+	}
+
+	header nav .navbar a:last-child {
+		color: #120f2d;
+		background-color: #f2f2f2;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:800px) {
+	html,body,div,span,applet,object,iframe,h1,.box__slider .box__slider-text p,.box__slider .box__slider-text main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__slider .box__slider-text p,.box__slider .box__slider-text main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__slider .box__slider-text p,h2,h3,main .about .box__about .box--descr .box--items p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 h3,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 h3,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 h3,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 h3,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 h3,h4,h5,h6,p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 p,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,hr,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,nav,output,ruby,section,summary,time,mark,audio,video,fieldset,form,label,legend,textarea,input,main .box__contact--us .contact__form--contact .box__form .form--group textarea,button,select,.box__slider .box__slider-form input,.box__slider .box__slider-form main .box__contact--us .contact__form--contact .box__form .form--group textarea,main .box__contact--us .contact__form--contact .box__form .form--group .box__slider .box__slider-form textarea,.box__slider .box__slider-form .btn-search,option,optgroup,textarea {
+		max-width: 100%;
+		flex-direction: column;
+	}
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.fixed-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.fixed-bottom {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+}

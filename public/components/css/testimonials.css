@@ -1,0 +1,99 @@
+main .box__testimonials {
+	background: #ecf4ff;
+}
+
+main .box__testimonials .box__testimonials--content {
+	padding: 5rem 0;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--left {
+	padding-right: 5rem;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--left .header {
+	margin-bottom: 1rem;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--left .header h3,main .box__testimonials .box__testimonials--content .testimonials--left .header .about .box__about .box--descr .box--items p,main .about .box__about .box--descr .box--items .box__testimonials .box__testimonials--content .testimonials--left .header p {
+	color: #f14d5d;
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--left .header p {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--left .testimonials--text {
+	color: #8f8b8b;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right {
+	position: relative;
+	padding: 1.5rem;
+	background-color: #fff;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .navigation {
+	position: absolute;
+	top: 1.9%;
+	left: 0;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .navigation .prev a.prev--link,main .box__testimonials .box__testimonials--content .testimonials--right .navigation .box__teachers .box__teachers--content .next a.prev--link,main .box__teachers .box__teachers--content .box__testimonials .box__testimonials--content .testimonials--right .navigation .next a.prev--link {
+	color: #fff;
+	font-size: 1.2rem;
+	padding: .5rem 1rem;
+	background-color: #f14d5d;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .navigation .next a.next--link {
+	color: #fff;
+	font-size: 1.2rem;
+	padding: .5rem 1rem;
+	background-color: #2878eb;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .testimonials--text {
+	padding-bottom: 1rem;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .testimonials--text q.citation {
+	color: #8f8b8b;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .testimonials--text q.citation::before {
+	content: "\f10d";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 3rem;
+	color: #2878eb;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .temoins {
+	align-items: center;
+	align-content: center;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .temoins .right {
+	margin-right: auto;
+	padding-left: 1rem;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .temoins .right h3,main .box__testimonials .box__testimonials--content .testimonials--right .temoins .right .about .box__about .box--descr .box--items p,main .about .box__about .box--descr .box--items .box__testimonials .box__testimonials--content .testimonials--right .temoins .right p {
+	color: #2878eb;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+main .box__testimonials .box__testimonials--content .testimonials--right .temoins .right p {
+	font-size: 1rem;
+	font-weight: 400;
+	color: #8f8b8b;
+}

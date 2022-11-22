@@ -1,0 +1,70 @@
+main .box__what--us {
+	margin-top: 5rem;
+	background: #ecf4ff;
+}
+
+main .box__what--us .what__us--text {
+	margin-top: 1rem;
+	padding: 3rem 10rem 3rem 0;
+}
+
+main .box__what--us .what__us--text h3,main .box__what--us .what__us--text .about .box__about .box--descr .box--items p,main .about .box__about .box--descr .box--items .box__what--us .what__us--text p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 h3,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 h3,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 h3,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 h3,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__what--us .what__us--text h3,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 h3,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__what--us .what__us--text h3 {
+	color: #f14d5d;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+main .box__what--us .what__us--text p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 p,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__what--us .what__us--text p,main .box__what--us .what__us--text .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__what--us .what__us--text p {
+	margin-top: 1rem;
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+main .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .what__us--items-2 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .what__us--items-3 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .what__us--items-3 .what__us__items--text-3 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__what--us .what__us--text .what__us--t1 p,main .box__what--us .what__us--text .what__us--t1 .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__what--us .what__us--text .what__us--t1 p {
+	color: #8f8b8b;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.8;
+}
+
+main .box__what--us .what__us--text .what__us--items-1,main .box__what--us .what__us--text .what__us--items-2,main .box__what--us .what__us--text .what__us--items-3 {
+	padding: 0;
+	justify-content: start;
+	align-items: flex-start;
+	margin-top: 1rem;
+}
+
+main .box__what--us .what__us--text .what__us--items-1 .what__us__items--icon-1,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--icon-1,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--icon-1,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--icon-2,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--icon-2,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--icon-3 {
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 0.9rem 1.5rem;
+	background-color: #2878eb;
+}
+
+main .box__what--us .what__us--text .what__us--items-1 .what__us__items--text-1,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-1,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-1,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 {
+	padding: 0 1rem;
+}
+
+main .box__what--us .what__us--text .what__us--items-1 .what__us__items--text-1 h3,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 h3
+{	color: #000;
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-transform: inherit;
+}
+
+main .box__what--us .what__us--text .what__us--items-1 .what__us__items--text-1 p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 p
+{	color: #8f8b8b;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+main .box__what--us .what__us--text .what__us--items-2 .what__us__items--icon-2,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--icon-2,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--icon-3 {
+	padding: 0.9rem 1.7rem;
+	background-color: #f14d5d;
+}
+
+main .box__what--us .what__us--text .what__us--items-3 .what__us__items--icon-3 {
+	padding: 0.9rem 1.5rem;
+	background-color: #28a745;
+}

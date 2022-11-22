@@ -1,0 +1,119 @@
+main .box__cours {
+	padding: 5rem 0;
+}
+
+main .box__cours .box__cours--header {
+	text-align: center;
+}
+
+main .box__cours .box__cours--header h3,main .box__cours .box__cours--header .about .box__about .box--descr .box--items p,main .about .box__about .box--descr .box--items .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 h3,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 h3,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 h3,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 h3,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 h3,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 h3,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__cours .box__cours--header h3,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 h3,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__cours .box__cours--header h3 {
+	color: #f14d5d;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+main .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__cours .box__cours--header p,main .box__cours .box__cours--header .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__cours .box__cours--header p {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+main .box__cours .box__cours--content {
+	margin-top: 2rem;
+	position: relative;
+}
+
+main .box__cours .box__cours--content .box__cours--item {
+	position: relative;
+	background-color: #000;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+main .box__cours .box__cours--content .box__cours--item img {
+	opacity: 80%;
+}
+
+main .box__cours .box__cours--content .box__cours--item .box__cours--text {
+	opacity: 0;
+	height: 0;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	flex-direction: column;
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+	z-index: 0;
+}
+
+main .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-2 .what__us__items--text-2 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-2 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 p,main .box__what--us .what__us--text .what__us--items-3 .what__us__items--text-3 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-2 .contact__items--text-2 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-2 .contact__items--text-2 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-2 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-2 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-2 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-2 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-3 .contact__items--text-3 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-3 .contact__items--text-3 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact--text .contact--items-4 .contact__items--text-3 .box__cours .box__cours--content .box__cours--item p,main .box__cours .box__cours--content .box__cours--item .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 p,main .box__contact--us .contact__form--contact .contact--items-4 .contact__items--text-3 .box__cours .box__cours--content .box__cours--item p {
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 1rem 0.3rem;
+	text-transform: uppercase;
+	z-index: 5;
+}
+
+main .box__cours .box__cours--content .box__cours--item .box__cours__footer--items {
+	text-align: center;
+	padding: .6rem 0;
+	position: absolute;
+	background-color: #000;
+	z-index: 1;
+}
+
+main .box__cours .box__cours--content .box__cours--item .box__cours__footer--items a.btn-cours {
+	color: #fff;
+	font-size: .8rem;
+	padding: .6rem 0;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+main .box__cours .box__cours--content .box__cours--item .box__cours__footer--items a.btn-cours:hover {
+	color: #fff;
+}
+
+main .box__cours .box__cours--content .box__cours--item:hover .box__cours--text {
+	animation: Zoom 1s ease-in-out 0s 1 normal both running;
+	-webkit-animation: ZoomIn 1s ease-in-out 0s 1 normal both running;
+	-moz-animation: ZoomIn 1s ease-in-out 0s 1 normal both running;
+	top: 49.7%;
+	left: 50.1%;
+	right: 50%;
+	bottom: 50%;
+	height: 100%;
+	opacity: 50%;
+	justify-content: center;
+	transform: translate(-50% -50%);
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+	background-color: #000;
+}
+
+@keyframes Zoom {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}

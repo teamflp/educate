@@ -1,0 +1,8 @@
+.back {
+     background-color: #f5f5f5;
+     background-image: url("https://i.imgur.com/1ZQ3Z0C.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+}
